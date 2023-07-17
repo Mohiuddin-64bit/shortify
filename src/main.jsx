@@ -12,9 +12,8 @@ import List from "./pages/List";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
+    element: <Home></Home>,
     children: [
-      { path: "/", element: <Home></Home> },
       { path: "entry", element: <Entry></Entry> },
       { path: "edit", element: <Edit></Edit> },
       { path: "list", element: <List></List> }
